@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+#header {
+  min-height: 100vh;
+  background-color: #0099ff;
+  border-bottom-left-radius: 50% 30%;
+  border-bottom-right-radius: 50% 30%;
+}
+.height {
+  min-height: 100vh;
+}
+.height-main {
+  min-height: 80vh;
+}
+.btn {
+  border: 1 px solid #0077b6;
+  padding: 5px 28px;
+  border-radius: 20px;
+}
+
+/* offer sectuin */
+.title-underline {
+  width: 60%;
+  height: 10px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+#contact {
+  background-color: #0099ff;
+}
+#contact::before {
+  content: "";
+  border-radius: 100% 50%;
+}
+
+#contact::after {
+  content: "";
+  border-radius: 100% 50%;
+}
